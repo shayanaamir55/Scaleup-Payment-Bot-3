@@ -1,0 +1,23 @@
+{
+  "name": "discord-balance-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for managing user balances with Notion integration",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "keywords": ["discord", "bot", "notion", "balance", "management"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@notionhq/client": "^2.2.14",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
